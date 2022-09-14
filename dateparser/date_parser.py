@@ -1,7 +1,3 @@
-import sys
-
-from tzlocal import get_localzone
-
 from .timezone_parser import pop_tz_offset_from_string
 from .utils import strip_braces, apply_timezone, localize_timezone
 from .conf import apply_settings
